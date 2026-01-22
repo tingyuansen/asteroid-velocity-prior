@@ -1,0 +1,5 @@
+# Asteroid Velocity Prior - Dependencies
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+astropy>=5.0.0

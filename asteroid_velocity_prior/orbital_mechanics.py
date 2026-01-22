@@ -16,9 +16,6 @@ Orbital Elements Convention:
     Ω   - Longitude of ascending node [rad]  
     ω   - Argument of perihelion [rad]
     M   - Mean anomaly [rad]
-
-References:
-    Murray & Dermott, "Solar System Dynamics", Ch. 2
 """
 
 import numpy as np

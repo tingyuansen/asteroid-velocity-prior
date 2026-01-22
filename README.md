@@ -148,10 +148,3 @@ See `tutorial.ipynb` for a comprehensive tutorial covering:
 - Search space reduction quantification
 - All-sky maps of the reduction factor
 
-## References
-
-- Orbital mechanics: Murray & Dermott, "Solar System Dynamics"
-- Action-angle variables: Binney & Tremaine, "Galactic Dynamics"  
-- NEO population model: Granvik et al. (2018)
-- TNO populations: Gladman et al. (2008)
-- Rubin/LSST: https://www.lsst.org/

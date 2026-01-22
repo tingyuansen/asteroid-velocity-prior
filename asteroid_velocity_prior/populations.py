@@ -12,11 +12,8 @@ Each population is defined by distributions in orbital element space:
 - ω: argument of perihelion [rad] (typically uniform)
 - M: mean anomaly [rad] (uniform for random phase)
 
-Population parameters are based on:
-- MPC orbital element distributions
-- Grav et al. (2011) for Trojans
-- Gladman et al. (2008) for TNOs
-- Granvik et al. (2018) for NEOs
+Population parameters are approximate representations of the known
+orbital element distributions for each asteroid family.
 """
 
 import numpy as np
@@ -185,7 +182,7 @@ class NEOPopulation(OrbitalPopulation):
     Near-Earth Object population.
     
     NEOs have perihelion q < 1.3 AU. They span a wide range of semi-major axes
-    and eccentricities. Based loosely on Granvik et al. (2018) debiased model.
+    and eccentricities.
     
     We model this with broad distributions:
     - a: Wide range from 0.5 to 4 AU, peaked around 1-2 AU
